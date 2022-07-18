@@ -63,6 +63,7 @@ main {
 
 .players .player:hover {
     transform: scale(1.25);
+    cursor: pointer;
 }
 
 hr {
@@ -99,6 +100,7 @@ hr {
 .blog-info {
     margin-top: 0;
     display: flex;
+    flex-direction: column;
     margin-left: 16px;
 }
 
